@@ -1,4 +1,5 @@
- 
+/*Write a java program that prompts the user to enter three points (x1, y1), (x2, y2), (x3, y3) of 
+a triangle and displays its area. The formula for computing the area of a triangle is*/ 
 import java.util.Scanner;
  class HWQ3
 {
@@ -9,11 +10,11 @@ import java.util.Scanner;
         double x1 = s1.nextDouble();
         double y1 = s1.nextDouble();
 
-        System.out.println("Enter the coordinate of first point x2,y2");
+        System.out.println("Enter the coordinate of second point x2,y2");
         double x2 = s1.nextDouble();
         double y2 = s1.nextDouble();
 
-        System.out.println("Enter the coordinate of first point x3,y3");
+        System.out.println("Enter the coordinate of third point x3,y3");
         double x3 = s1.nextDouble();
         double y3 = s1.nextDouble();
 
